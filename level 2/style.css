@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #fce4ec);
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    padding: 12px 25px;
+    position: relative;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* HAMBURGER */
+.hamburger {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* CARD EFFECT */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: #374151;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        width: 180px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
