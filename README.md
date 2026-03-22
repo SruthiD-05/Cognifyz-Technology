@@ -54,4 +54,5 @@ This project helped me understand the fundamentals of front-end development, res
 
 ## 📬 Connect with Me
 
-LinkedIn: (Add your profile link here)
+LinkedIn: https://www.linkedin.com/in/sruthi-divakarla-206b81332
+
